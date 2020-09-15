@@ -47,7 +47,7 @@ h2, h3 {
 }
 
 /* nav anchor link pseudo-classes */
-a:link {color:#334B48; }
+a:link {color:#F3F6F6; }
 a:visited {color:#F3F6F6;}
 a:hover {color:#97B1AE; }
 a:active {color:#F3F6F6;}
