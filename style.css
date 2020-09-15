@@ -1,0 +1,110 @@
+
+/* all elements */
+* {
+	  box-sizing:border-box;
+	  margin:20px;
+	}
+
+/* class to make the green box slightly smaller for the headings */
+.tab-styling {
+	padding:10px;
+	text-align:left;
+}
+
+/* class to add extra padding to the top of each article */
+.article-padding {
+	padding:20px 0px 0px 0px;
+}
+
+/* class to add extra padding to the bottom of each paragraph */
+.extra-padding {
+	padding:0px 0px 0px 30px;
+}
+
+/* all headings from 1-4, paragraphs, and list elements*/
+nav, h1, h2, h3, p, ol, ul {
+	font-family:'Helvetica Neue', Helvetica, sans-serif;
+}
+
+/* text-align for footer, navigation, header div, h1 */
+footer, nav, header div, h1 {
+	text-align:center;
+}
+
+/* font sizes for paragraphs and both types of lists */
+p, ul, ol {
+	font-size:18px;
+}
+
+/* ordered and unordered lists line height */
+ol, ul {
+	line-height:2px;
+}
+
+/* heading 2 and 3 text color */
+h2, h3 {
+	color:#0C2520;
+}
+
+/* nav anchor link pseudo-classes */
+a:link {color:#334B48; }
+a:visited {color:#F3F6F6;}
+a:hover {color:#97B1AE; }
+a:active {color:#F3F6F6;}
+
+/* contact anchor link pseudo-classes */
+li a:link {color:#334B48; }
+li a:visited {color:#4B5963;}
+li a:hover {color:#97B1AE; }
+li a:active {color:#F3F6F6;}
+
+/* body of webpage */
+body {
+	background-color:#f3f6f6;
+}
+
+/* matt headshot image */
+header div img {
+	border-radius:50%;
+}
+
+/* heading under picture */
+header h3 {
+	margin:20px;
+	padding:0px 20px 35px 20px;
+	font-style:italic;
+}
+
+/* navigation links "intro", "about me", "contact" */
+nav a {
+	background-color:#4B5963;
+	color:#F3F6F6;
+	text-transform:lowercase;
+	letter-spacing:2px;
+	padding:10px;
+	border:3px solid #4B5963;
+	border-radius:8%;
+}
+
+/* MATT REIHING HEADING // h1 headings */
+h1 {
+	font-family:'Helvetica Neue', Helvetica, sans-serif ;
+	font-size:50px;
+	color:#334B48;
+	padding:20px;
+	margin:0px;
+	border:3px solid #334B48;
+}
+
+/* heading 2 elements */
+h2 {
+	background-color:#97B1AE;
+}
+
+/* horizontal rules */
+hr {
+	margin:40px;
+	height:1px;
+	border:1px solid #97B1AE;
+	background-color:#97B1AE;
+}
